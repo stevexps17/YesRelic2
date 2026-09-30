@@ -19,7 +19,7 @@ namespace YesRelic2;
 [ModInitializer(nameof(Initialize))]
 public static class Entry
 {
-    public const string Version = "0.1.0";
+    public const string Version = "0.1.1";
     public const string TestedHash = "0861BFA1DF347538D932F22D580E75420F08082792EB914E53B4882764ACDBE9";
     public static bool Compatible { get; private set; }
 
@@ -81,3 +81,4 @@ internal static class LocalizationPatch
             });
     }
 }
+

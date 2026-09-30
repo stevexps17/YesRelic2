@@ -2,11 +2,11 @@
 
 《杀戮尖塔 2》单人模组：持有 **Yes!** 遗物时，战斗后的卡牌奖励可以自由多选。
 
-**当前版本：0.1.0 单人测试版。适配 v0.111.0；尚未完成实机交互与存读档验证。**
+**当前版本：0.1.1 单人测试版。适配 v0.111.0；尚未完成实机交互与存读档验证。**
 
 ## 下载与安装
 
-[下载 0.1.0 单人测试版](releases/YesRelic2-0.1.0-singleplayer.zip)
+[下载 0.1.1 单人测试版](releases/YesRelic2-0.1.1-singleplayer.zip)
 
 退出游戏，将压缩包中的 `YesRelic2` 文件夹解压至游戏的 `mods` 目录，在游戏内启用模组。按 **F9** 打开设置，然后新开一局单人游戏。无需 BaseLib 或 RitsuLib。
 
@@ -49,4 +49,10 @@
 玩法灵感来自 rael_kid 的一代 [YesRelic](https://steamcommunity.com/sharedfiles/filedetails/?id=2805381186)。本项目是独立实现，不使用原模组代码或美术，不代表原作者或 Mega Crit。
 
 一代公开说明确认多选、额外初始遗物、普通遗物池、次数限制和多组奖励共享额度的设计。“第二张成功入库才扣次”是本移植明确采用的规则，未声称与一代内部实现完全一致。
+
+## Language / 语言
+
+The mod automatically follows the game language at startup. English and other non-Chinese locales use English; Chinese locales use Chinese text. The F9 settings panel refreshes when the game language changes, without resetting settings or remaining uses. The mod-list name is bilingual.
+
+0.1.1：修复设置界面仅在创建时决定语言的问题，启动与切换游戏语言后自动同步。遗物描述与完成按钮跟随游戏语言。本次更新已编译，未启动游戏测试。
 

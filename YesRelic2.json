@@ -1,9 +1,9 @@
 {
   "id": "YesRelic2",
-  "name": "Yes! 自由选牌（单人）",
+  "name": "Yes! / 自由选牌 (Single-player)",
   "author": "Local",
-  "description": "战斗卡牌奖励自由多选。支持额外初始遗物、普通遗物池和有限次数。F9 打开设置。独立实现，灵感来自 rael_kid 的 YesRelic。仅适配 0.111.0 单人模式。",
-  "version": "0.1.0",
+  "description": "Take multiple combat card rewards. Optional starting relic, common relic pool and limited uses. F9: settings. Follows game language: Chinese or English (fallback). 战斗奖励多选，自动跟随游戏语言。Single-player 0.111.0.",
+  "version": "0.1.1",
   "has_pck": false,
   "has_dll": true,
   "affects_gameplay": true,
